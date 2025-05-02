@@ -11,7 +11,7 @@ const LoginPage = () => {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
-    const url="/api/login"
+    const url="https://apis.ccbp.in/login"
 
     let userDetails={
       username,
