@@ -23,7 +23,7 @@ const Bookshelves = () => {
         }
     }
     let getBooks= async ()=>{
-        let response = await fetch(`/api/book-hub/books?shelf=ALL&search=`,options)
+        let response = await fetch(`https://apis.ccbp.in/book-hub/books?shelf=ALL&search=`,options)
         let data = await response.json()
         // console.log(data.books)
         setBooks(data.books ||[])

@@ -20,7 +20,7 @@ const BookDetails = () => {
     }
     const fetchBookDetails = async () => {
         try {
-            const response = await fetch(`/api/book-hub/books/${id}`, options)
+            const response = await fetch(`https://apis.ccbp.in/book-hub/books/${id}`, options)
             if (!response.ok) {
                 navigate("/*")
             }

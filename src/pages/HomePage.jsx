@@ -25,7 +25,7 @@ const HomePage = () => {
     }
   }
   let getHomeBooks= async ()=>{
-      let response = await fetch(`/api/book-hub/top-rated-books`,options)
+      let response = await fetch(`https://apis.ccbp.in/book-hub/top-rated-books`,options)
       let data = await response.json()
       // console.log(data.books)
       setHomeBooks(data.books ||[])
