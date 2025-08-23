@@ -14,7 +14,7 @@ const MainBooks = (props) => {
             <img
               src={book.cover_pic}
               alt={book.title}
-              className="w-20 h-28 object-cover rounded"
+              className="w-24 h-36 object-cover rounded"
             />
             <div>
               <h3 className="text-lg font-semibold">{book.title}</h3>
