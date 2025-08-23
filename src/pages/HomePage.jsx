@@ -69,7 +69,7 @@ const HomePage = () => {
               <div key={book.id}  onClick={ () => {
                 navigate(`/Bookshelves/${book.id}`)
             }}  className="flex-shrink-0 w-60 bg-white shadow rounded-lg overflow-hidden">
-                <img src={book.cover_pic} alt={book.title} className="h-40 w-full object-cover" />
+                <img src={book.cover_pic} alt={book.title} className="h-100 w-full object-cover" />
                 <div className="p-4">
                   <h3 className="font-semibold text-lg">{book.title}</h3>
                   <p className="text-gray-500 text-sm">{book.author_name}</p>

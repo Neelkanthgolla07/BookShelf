@@ -45,7 +45,7 @@ const BookDetails = () => {
         <div className="max-w-md md:max-w-3xl mx-auto p-4 bg-white rounded-xl shadow-md flex flex-col md:flex-row gap-4">
           {/* <!-- Book Image --> */}
           <div className="w-full md:w-1/3 flex justify-center">
-            <img src={bookDetails.cover_pic} alt="Book Cover" className="w-40 h-auto rounded-lg object-cover" />
+            <img src={bookDetails.cover_pic} alt="Book Cover" className="w-100 h-auto rounded-lg object-cover" />
           </div>
 
           {/* <!-- Book Details --> */}
